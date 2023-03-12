@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { FeedbackOptionItem } from './FeedbackOptionItem/FeedbackOptionItem';
 
 import { StyledFeedbackOptions } from './FeedbackOptions.styled';
+
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <StyledFeedbackOptions>

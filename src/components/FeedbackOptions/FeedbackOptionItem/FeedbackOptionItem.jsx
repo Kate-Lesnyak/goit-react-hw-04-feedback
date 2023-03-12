@@ -4,6 +4,7 @@ import {
   StyledFeedbackOptionItem,
   StyledButton,
 } from './FeedbackOptionItem.styled';
+
 export const FeedbackOptionItem = ({ option, onLeaveFeedback }) => {
   return (
     <StyledFeedbackOptionItem>
